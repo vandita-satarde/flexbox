@@ -4,7 +4,7 @@
     <title>Flexbox</title>
     <style>
         .parent1{
-            height: 500px;
+            height: 600px;
             width: 1200px;
             background-color: black;
             margin: 20px;
@@ -24,13 +24,25 @@
 
         .parent4{
             align-items: end;
-            flex-direction: column;
+            flex-direction: row;
             justify-content: space-around;
         }
 
+        .parent5{
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .parent6{
+            flex-direction: column;
+            justify-content: end;
+            align-items: start;
+        }
+
         .child{
-            height: 150px;
-            width: 150px;
+            height: 50px;
+            width: 100px;
             background-color: red;
             margin: 10px;
             padding: 20px;
@@ -60,7 +72,7 @@
         <div class="child">
             Science
         </div>
-        <div class="child" style="width: 500px;">
+        <div class="child" style="width: 600px;">
             History 
         </div>
     </div>
@@ -99,6 +111,38 @@
 
     <p>Flexbox 4</p>
     <div class="parent1 parent4">
+        <div class="child">
+            English
+        </div>
+        <div class="child">
+            Hindi
+        </div>
+        <div class="child">
+            Maths
+        </div>
+        <div class="child">
+            Science
+        </div>
+    </div>
+
+    <p>Flexbox 5</p>
+    <div class="parent1 parent5">
+        <div class="child">
+            English
+        </div>
+        <div class="child">
+            Hindi
+        </div>
+        <div class="child">
+            Maths
+        </div>
+        <div class="child">
+            Science
+        </div>
+    </div>
+
+    <p>Flexbox 6</p>
+    <div class="parent1 parent6">
         <div class="child">
             English
         </div>
